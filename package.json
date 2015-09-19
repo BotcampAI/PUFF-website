@@ -1,0 +1,11 @@
+{
+  "name": "puff-website",
+  "version": "0.0.1",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "cssnano": "^3.0.3",
+    "grunt": "^0.4.5",
+    "grunt-postcss": "^0.6.0",
+    "postcss-import": "^7.0.0"
+  }
+}
