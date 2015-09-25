@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="630px" viewBox="0 0 300 630" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>iphone + Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-1060.000000, -80.000000)" stroke="#000000">
+            <g id="iphone-+-Rectangle-1" sketch:type="MSLayerGroup" transform="translate(1060.000000, 80.000000)">
+                <g id="iphone" transform="translate(0.714167, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M298.852056,592.590569 C298.852056,612.881588 282.32094,629.327123 261.927735,629.327123 L36.9266198,629.327123 C16.5334153,629.327123 0.00229886197,612.881588 0.00229886197,592.590569 L0.00229886197,36.9226257 C0.00229886197,16.6316064 16.5334153,0.18607184 36.9266198,0.18607184 L261.927735,0.18607184 C282.32094,0.18607184 298.852056,16.6316064 298.852056,36.9226257 L298.852056,592.590569 Z M20.6897577,82.6985955 L278.001378,82.6985955 L278.001378,540.031017 L20.6897577,540.031017 L20.6897577,82.6985955 Z" id="bezel" stroke-width="6"></path>
+                    <path d="M177.012372,59.1432789 C177.012372,60.6019902 176.003171,61.778148 174.759487,61.778148 L128.547764,61.778148 C127.301781,61.778148 126.294879,60.599693 126.294879,59.1432789 L126.294879,53.2165462 C126.294879,51.7578349 127.304079,50.5816771 128.547764,50.5816771 L174.759487,50.5816771 C176.003171,50.5816771 177.012372,51.760132 177.012372,53.2165462 L177.012372,59.1432789 L177.012372,59.1432789 Z" id="speaker" stroke-width="3"></path>
+                    <ellipse id="camera" stroke-width="3" cx="151.72489" cy="27.5661985" rx="6.89658591" ry="6.89154962"></ellipse>
+                    <ellipse id="lock" stroke-width="3" cx="149.517983" cy="583.486832" rx="23.0805742" ry="22.9741293"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

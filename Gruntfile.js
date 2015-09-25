@@ -16,15 +16,17 @@ module.exports = function(grunt) {
                     postcssImport({
                         path: ['css/'],
                     }),
-                    cssnano()
+
                 ]
             },
             dist: {
-                src: 'css/*.css',
+                src: 'css/main.css',
                 dest: 'build/css/main.css'
             }
         }
     });
+
+    //cssnano()
 
     grunt.registerTask('build', ['postcss']);
 };
