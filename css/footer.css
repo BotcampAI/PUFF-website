@@ -1,0 +1,26 @@
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 354px;
+    background: #81FCAD;
+}
+
+.footer-inner {
+    margin: 0 auto;
+    padding: 0 80px;
+    width: 152px;
+    max-width: 1440px;
+    text-align: center;
+}
+
+.footer-text {
+    margin: 0 0 16px;
+    font-size: 16px;
+}
+
+.link-image--appstore {
+    height: 45px;
+    width: 153px;
+}
