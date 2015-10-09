@@ -5,6 +5,7 @@ html {
 body {
     height: auto;
     min-height: 100%;
+    font-family: 'AvenirNextCondensed', sans-serif;
 }
 
 h1 {
