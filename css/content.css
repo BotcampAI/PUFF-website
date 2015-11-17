@@ -1,11 +1,15 @@
 .wrapper {
     position: relative;
-    padding: 0 0 354px;
 }
 
 .content {
-    padding: 159px 80px;
-    max-width: 1440px;
+    padding: 160px 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.content__centered {
+    text-align: center;
 }
 
 .list {
@@ -19,46 +23,89 @@
 }
 
 .list--social {
+    margin-bottom: 80px;
+}
 
+.list--social .list-item {
+    margin-bottom: 0;
+    display: inline-block;
+    margin: 0 20px 0;
 }
 
 .list--social .link {
-    font-size: 32px;
+
 }
 
 .list-item {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 0;
+    margin-bottom: 200px;
+}
+
+.list-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-item__reversed.list-item {
+
 }
 
 .list--figure .list-item {
-    width: 32%;
+
 }
 
 .figure {
-
+    display: table;
 }
 
 .figure-image {
-    width: 200px;
-    height: 200px;
+    vertical-align: top;
+    width: 300px;
+    display: table-cell;
+}
+
+.figure-image img {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
     border: 6px solid #000;
     border-radius: 50%;
 }
 
 .figure-caption {
-    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    box-sizing: border-box;
+    padding-left: 80px;
+    max-width: 680px;
+}
+
+.list-item__reversed .figure-caption {
+    padding-left: 0;
+    padding-right: 80px;
 }
 
 .figure-title {
     font-family: 'AvenirNextCondensed', sans-serif;
     font-size: 32px;
+    letter-spacing: 2px;
     color: #000;
+    margin-top: 0;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.figure-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 3px;
+    bottom: -60px;
+    background-color: #81FCAD;
 }
 
 .figure-text {
-    font-size: 32px;
+    font-size: 20px;
+    line-height: 30px;
     color: #9B9B9B;
 }
 

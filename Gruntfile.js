@@ -4,6 +4,7 @@ module.exports = function(grunt) {
     var postcssImport = require('postcss-import');
 
     grunt.loadNpmTasks('grunt-postcss');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.initConfig({
         postcss: {
@@ -23,7 +24,17 @@ module.exports = function(grunt) {
                 src: 'css/main.css',
                 dest: 'build/css/main.css'
             }
-        }
+        },
+
+        watch: {
+          scripts: {
+            files: '**/*.css',
+            tasks: ['build'],
+            options: {
+              interrupt: true,
+            },
+          },
+        },
     });
 
     //cssnano()

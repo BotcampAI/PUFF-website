@@ -1,13 +1,29 @@
 html {
     height: 100%;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 body {
     height: auto;
     min-height: 100%;
     font-family: 'AvenirNextCondensed', sans-serif;
+    color: black;
 }
 
 h1 {
     margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #81FCAD;
+    transition: all 0.3s ease-out;
+}
+
+a:hover {
+    padding-bottom: 16px;
 }
