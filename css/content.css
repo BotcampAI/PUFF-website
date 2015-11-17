@@ -1,11 +1,15 @@
 .wrapper {
     position: relative;
-    padding: 0 0 354px;
 }
 
 .content {
-    padding: 159px 80px;
-    max-width: 1440px;
+    padding: 160px 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.content__centered {
+    text-align: center;
 }
 
 .list {
@@ -37,10 +41,11 @@
 }
 
 .figure {
-
+    text-align: center;
 }
 
 .figure-image {
+    display: inline-block;
     width: 200px;
     height: 200px;
     border: 6px solid #000;
