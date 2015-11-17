@@ -20,7 +20,7 @@ a {
     font-weight: bold;
     padding-bottom: 12px;
     border-bottom: 2px solid #81FCAD;
-    transition: all 0.3s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 a:hover {
