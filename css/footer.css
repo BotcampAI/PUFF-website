@@ -1,8 +1,13 @@
 .footer {
     width: 100%;
+    margin: 0;
+    padding: 120px 0;
     border-top: 3px solid black;
-    height: 354px;
     background: #81FCAD;
+}
+
+.footer a {
+    border-bottom: 2px solid white;
 }
 
 .footer-inner {
@@ -14,6 +19,12 @@
 .footer-text {
     margin: 0 0 16px;
     font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.footer-copyright {
+    margin-bottom: 80px;
 }
 
 .link-image--appstore {
