@@ -6,6 +6,15 @@
     background: #81FCAD;
 }
 
+
+@media (max-width: 1280px) {
+    .footer {
+        width: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
 .footer a {
     border-bottom: 2px solid white;
 }

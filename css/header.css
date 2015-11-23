@@ -10,6 +10,13 @@
     margin: 0 auto;
 }
 
+@media (max-width: 1280px) {
+    .header-wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
 .header-inner {
     text-align: center;
 }
@@ -81,4 +88,74 @@
 .header-signup:hover:before {
     transition: all 0.3s ease-out;
     transform: skew(-2deg) scaleY(1.6) translateX(10px) rotate(-2deg);
+}
+
+@media (max-width: 1200px) {
+    .header-logo {
+        margin-top: -180px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header-logo {
+        margin-top: -160px;
+    }
+}
+
+@media (max-width: 900px) {
+    .header-logo {
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-logo {
+        margin-top: -140px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .header-signup,
+    .header-info i {
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .header-info i {
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-logo {
+        margin-top: -110px;
+    }
+
+    .header {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-logo {
+        margin-top: -70px;
+    }
+
+    .header {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-logo {
+        margin-top: -60px;
+    }
+
+    .header {
+        margin-top: 40px;
+    }
 }
