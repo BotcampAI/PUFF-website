@@ -91,6 +91,7 @@
 }
 
 .figure-title {
+    font-family: 'AvenirNextCondensed-Bold', sans-serif;
     font-size: 32px;
     letter-spacing: 2px;
     color: #000;
