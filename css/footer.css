@@ -29,11 +29,71 @@
     margin: 0 0 16px;
     font-size: 16px;
     line-height: 20px;
-    font-style: italic;
 }
 
 .footer-copyright {
     margin-bottom: 80px;
+}
+
+.footer-beta {
+    margin-bottom: 120px;
+    margin-top: 160px;
+}
+
+
+.footer h2 {
+    font-size: 32px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.footer h2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    bottom: -60px;
+    left: 50%;
+    margin-left: -100px;
+    background-color: black;
+}
+
+.footer form {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.footer form input,
+.footer form select,
+.footer form select option,
+.footer form button {
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: 'AvenirNextCondensed-Bold', sans-serif;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    border-radius: 0;
+    outline: none;
+    padding: 8px;
+}
+
+.footer form label {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px
+
+}
+
+.footer form button {
+    margin: 0;
+    margin-top: 40px;
 }
 
 .link-image--appstore {

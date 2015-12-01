@@ -68,7 +68,8 @@
     border-bottom: 2px solid white;
 }
 
-.header-info .header-signup {
+.header-info .header-signup,
+.footer-signup {
     line-height: 20px;
     display: inline-block;
     text-transform: uppercase;
@@ -81,9 +82,12 @@
     border-radius: 8px;
     position: relative;
     font-weight: bold;
+    background-color: transparent;
+    outline: none;
 }
 
-.header-signup:before {
+.header-signup:before,
+.footer-signup:before {
     content: '';
     display: block;
     position: absolute;
@@ -100,7 +104,8 @@
     transform: skew(6deg) scaleY(1.25) translateX(-10px) rotate(-1deg);
 }
 
-.header-signup:after {
+.header-signup:after,
+.footer-signup:after {
     content: '';
     display: block;
     border: 3px solid black;
@@ -115,11 +120,13 @@
     left: -3px;
 }
 
-.header-signup:hover {
+.header-signup:hover,
+.footer-signup:hover  {
     padding-bottom: 12px;
 }
 
-.header-signup:hover:before {
+.header-signup:hover:before,
+.footer-signup:hover:before {
     transition: all 0.3s ease-out;
     transform: skew(-2deg) scaleY(1.6) translateX(10px) rotate(-2deg);
 }
