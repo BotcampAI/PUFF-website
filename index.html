@@ -15,9 +15,16 @@
 
     <link rel='stylesheet' href='build/css/main.css'>
 
-    <!--[if lt IE 9]>
-    <script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script>
-    <![endif]-->
+   <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-70884240-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </head>
 
 <body class='puff'>
@@ -29,6 +36,11 @@
             <section class='header-info'>
                 <a class='header-signup' href="#beta">Sign Up For Beta Testing</a> &nbsp; <i>or</i> &nbsp; <a href="#features">learn more about PUFF!</a>
             </section>
+
+            <div class="header-promo">
+                <img class='header-phone' alt="iPhone Vector" src='images/svg/phone.svg' />
+                <img class='header-screenshot' alt="Strain library, THC, CBD, check-in" src='images/PUFF-screenshot.jpg' />
+            </div>
         </div>
     </header>
     <div class='wrapper'>
@@ -41,7 +53,7 @@
                 <li class='list-item'>
                     <figure class='figure'>
                         <div class='figure-image'>
-                            <img src='images/sample.png' alt='EXPLORE'>
+                            <img src='images/PUFF-strain.jpg' alt='Strain Parameters'>
                         </div>
                         <figcaption class='figure-caption'>
                             <h2 class='figure-title'>EXPLORE</h2>
@@ -53,7 +65,7 @@
                 <li class='list-item'>
                     <figure class='figure'>
                         <div class='figure-image'>
-                            <img src='images/sample.png' alt='INFLUENCE'>
+                            <img src='images/PUFF-strain-library.jpg' alt='Strain Library'>
                         </div>
                         <figcaption class='figure-caption'>
                             <h2 class='figure-title'>INFLUENCE</h2>
@@ -65,11 +77,11 @@
                 <li class='list-item'>
                     <figure class='figure'>
                         <div class='figure-image'>
-                            <img src='images/sample.png' alt='DISCOVER'>
+                            <img src='images/PUFF-experience.jpg' alt='User Experience'>
                         </div>
                         <figcaption class='figure-caption'>
                             <h2 class='figure-title'>DISCOVER</h2>
-                            <p class='figure-text'>You're what you smoke. Get personal recommendations based on you taste.</p>
+                            <p class='figure-text'>You're what you smoke. Get personal recommendations based on your taste.</p>
                         </figcaption>
                     </figure>
                 </li>
@@ -78,11 +90,11 @@
                 <li class='list-item'>
                     <figure class='figure'>
                         <div class='figure-image'>
-                            <img src='images/sample.png' alt='Anonymous'>
+                            <img src='images/anonymous.jpg' alt='Anonymous'>
                         </div>
                         <figcaption class='figure-caption'>
                             <h2 class='figure-title'>DON'T WORRY</h2>
-                            <p class='figure-text'>PUFF keeps all your data strictly private and anonymous. No usernames, no registration. Be happy and enjoy your time!</p>
+                            <p class='figure-text'>PUFF keeps all your data strictly private and anonymous. We do not store any of your private data at all: no usernames, no profiles, no registration. Be happy and enjoy your time!</p>
                         </figcaption>
                     </figure>
                 </li>

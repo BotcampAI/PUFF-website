@@ -8,9 +8,43 @@
 .header-wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 480px;
+}
+
+.header-promo {
+    position: absolute;
+    width: 320px;
+    height: 651px;
+    background-color: white;
+    top: -95px;
+    right: 0;
+    text-align: center;
+}
+
+.header-phone {
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-screenshot {
+    width: 276px;
+    position: absolute;
+    top: 78px;
+    left: 22px;
+    z-index: 0;
 }
 
 @media (max-width: 1280px) {
+    .header-promo {
+        display: none;
+    }
+
     .header-wrapper {
         padding-left: 40px;
         padding-right: 40px;
@@ -23,7 +57,7 @@
 
 .header-logo {
     position: relative;
-    margin-top: -200px;
+    margin-top: -150px;
 }
 
 .header-info {
