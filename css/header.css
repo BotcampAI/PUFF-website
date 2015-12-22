@@ -122,7 +122,7 @@
 
 .header-signup:hover,
 .footer-signup:hover  {
-    padding-bottom: 12px;
+    /*padding-bottom: 12px;*/
 }
 
 .header-signup:hover:before,
