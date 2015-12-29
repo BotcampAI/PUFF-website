@@ -60,6 +60,16 @@
     margin-top: -150px;
 }
 
+.header-slogan {
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'AvenirNextCondensed-Bold', sans-serif;
+}
+
 .header-info {
     margin-top: 80px;
 }
@@ -134,6 +144,10 @@
 @media (max-width: 1200px) {
     .header-logo {
         margin-top: -180px;
+    }
+
+    .header-slogan {
+        text-align: center;
     }
 }
 
